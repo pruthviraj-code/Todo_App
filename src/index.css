@@ -1,0 +1,51 @@
+:root {
+  --blue-500: hsl(220, 98%, 61%);
+  --check-background: linear-gradient(
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+
+  --gray-50: hsl(0, 0%, 98%);
+  --purple-300: hsl(234, 39%, 85%);
+  --gray-300: hsl(233, 11%, 84%);
+  --gray-600: hsl(236, 9%, 61%);
+  --navy-850: hsl(235, 19%, 35%);
+
+  --navy-950: hsl(235, 21%, 11%);
+  --navy-900: hsl(235, 24%, 19%);
+  --purple-100-hover: hsl(236, 33%, 92%);
+  --purple-600: hsl(235, 16%, 43%);
+  --purple-700: hsl(233, 14%, 35%);
+  --purple-800: hsl(237, 14%, 26%);
+}
+
+.theme-dark {
+  --bg-surface: var(--navy-900);
+  --bg-page: var(--navy-950);
+  --text-primary: var(--purple-300);
+  --text-muted: var(--purple-600);
+  --text-strike: var(--purple-700);
+  --border-color: var(--purple-800);
+  --input-placeholder: var(--purple-600);
+}
+
+.theme-light {
+  --bg-surface: var(--gray-50);
+  --bg-page: var(--purple-100-hover);
+  --text-primary: var(--navy-850);
+  --text-muted: var(--gray-600);
+  --text-strike: var(--gray-300);
+  --border-color: var(--gray-300);
+  --input-placeholder: var(--gray-600);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  min-height: 100vh;
+}
