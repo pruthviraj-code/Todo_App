@@ -1,9 +1,7 @@
 :root {
   --blue-500: hsl(220, 98%, 61%);
-  --check-background: linear-gradient(
-    hsl(192, 100%, 67%),
-    hsl(280, 87%, 65%)
-  );
+  --check-background: linear-gradient(hsl(192, 100%, 67%),
+      hsl(280, 87%, 65%));
 
   --gray-50: hsl(0, 0%, 98%);
   --purple-300: hsl(234, 39%, 85%);
@@ -44,8 +42,8 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: "Josefin Sans", sans-serif;
   min-height: 100vh;
+  background-color: var(--bg-page);
 }
